@@ -1,21 +1,29 @@
-# Security Policy
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Website</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Website</h1>
+    </header>
 
-## Supported Versions
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+    <section>
+        <h2>About Us</h2>
+        <p>This is a simple website created with HTML, CSS, and JavaScript.</p>
+        <button onclick="displayMessage()">Click me</button>
+    </section>
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
-
-## Reporting a Vulnerability
-
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+    <footer>
+        <p>
